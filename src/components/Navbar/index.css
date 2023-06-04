@@ -1,0 +1,14 @@
+.header {
+  background-color: #f1f5f9;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 85%;
+}
+.website-logo {
+  width: 150px;
+}
