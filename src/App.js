@@ -56,9 +56,8 @@ class App extends Component {
     }
   }
 
-  onChangeCategory = async event => {
-    await this.setState({activeCategory: event.target.value})
-    this.getProjectsList()
+  onChangeCategory = event => {
+    this.setState({activeCategory: event.target.value}, this.getProjectsList)
   }
 
   renderDropDownMenu = () => {
